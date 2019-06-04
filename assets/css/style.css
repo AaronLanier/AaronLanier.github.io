@@ -1,0 +1,46 @@
+body {
+    background-color: lightgray;
+    margin: 0 ;
+}
+
+header {
+    background-color: white;
+    margin-top: 0;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#container {
+float: center;
+margin: 0 auto;
+width: 980px;
+}
+
+#yourName {
+    float: left;
+    background-color: teal;
+    color: white;
+    
+}
+nav {
+    float: right;
+    max-width: 980px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 30px;
+}
+
+#yourName h1{
+    padding: 0px 10px;
+}
